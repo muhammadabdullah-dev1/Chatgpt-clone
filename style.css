@@ -37,10 +37,10 @@ html {
     
 
 }
-#chat{
+#chat-box{
     height: 75vh;
 }
-#chat >h1 {
+#chat-box >h1 {
     margin-top: 100px;
     font-size: 4rem;
     font-weight: 200;

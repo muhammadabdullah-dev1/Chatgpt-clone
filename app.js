@@ -256,7 +256,7 @@ const apiKey = "sk-or-v1-d4dd06d319f8d6c5044c6416f913a2e788aa6ad6ac8406b9125cfef
 
 
 
-m
+
 // 1️⃣ SELECT ELEMENTS
 const send = document.getElementById("send-btn");
 const input = document.getElementById("user-input");

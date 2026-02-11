@@ -257,12 +257,12 @@ const apiKey = "sk-or-v1-d4dd06d319f8d6c5044c6416f913a2e788aa6ad6ac8406b9125cfef
 
 
 
-// 1️⃣ SELECT ELEMENTS
+// 1️ SELECT ELEMENTS
 const send = document.getElementById("send-btn");
 const input = document.getElementById("user-input");
 const chatBox = document.getElementById("chat-box");
 
-// 2️⃣ API KEY
+// 2️ API KEY
 // const apiKey = "sk-or-v1-XXXX"; // use your key
 
 // 3️⃣ DEFINE FUNCTION (THIS FIXES THE ERROR)
@@ -274,7 +274,7 @@ function addMessage(text, sender) {
   chatBox.scrollTop = chatBox.scrollHeight;
 }
 
-// 4️⃣ EVENT LISTENER (USES addMessage)
+// 4️ EVENT LISTENER (USES addMessage)
 send.addEventListener("click", () => {
   const userMessage = input.value.trim();
   if (userMessage === "") return;
